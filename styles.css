@@ -11,7 +11,6 @@ html {
 }
 
 body {
-    margin-top: 100px;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
@@ -42,14 +41,24 @@ h3 {
     font-size: 14px;
     height: 100vh;
     color: white;
+    
 }
 
-#profile_pic {
+.introduction {
+    height: 100vh;
+    width: 100%
+
+}
+
+
+/* #profile_pic {
     border-radius: 200px;
     border: 10px solid white;
-    position: fixed;
+    max-width: 30%;
+    height: auto;
+    width: auto;
     z-index: -1;
-}
+} */
 
 
 .menubar {
@@ -74,7 +83,6 @@ a {
     text-decoration: none;
     color: black;
     font-size: 34px;
-    font-style: italic;
     font-weight: bold;
 }
 
