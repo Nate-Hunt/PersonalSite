@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 80px;
 }
 
 html {
@@ -20,12 +20,11 @@ h1, h3 {
     text-align: center;
     color: white;
     text-align: left;
-    padding-left: 30px;
 }
 
 h1 {
     text-align: center;
-    font-size: 200px;
+    font-size: 10vw;
 }
 
 h2 {
@@ -61,23 +60,28 @@ h3 {
 }
 
 .introduction {
-    position:absolute;
+    display:flex;
     z-index: -1;
-    width: 100%;
+    justify-content: center;
 }
 
+
 #profile_pic {
-        border-radius: 200px;
-        border: 10px solid white;
-        /* max-width: 30%; */
-        /* object-fit: none; */
-        margin-top: 300px;
-        margin-left: 1040px;
-        margin-right: 1040px;
-        height: 70rem;
-        width: 70rem;
-        z-index: -1;
+    border-radius: 15vw;
+    border: 10px solid white;
+    min-height: 0px;
+    min-width: 0px;
+    max-width: 50vw;
+    flex: 2;
+    z-index: -1;
 }
+
+.side_paragraph
+{
+    flex:4;
+    font-size: 3vw;
+}
+
 
 @keyframes cursor-blink {
     0% {background: transparent}
@@ -87,8 +91,8 @@ h3 {
   
 #cursor {
     content: "";
-    width: 20px;
-    height: 145px;
+    width: 15px;
+    height: 92px;
     background: white;
     display: inline-block;
     animation: cursor-blink 1.2s infinite;
@@ -98,7 +102,7 @@ h3 {
     padding-left: 1rem;
     position: fixed;
     background-color: white;
-    height: 70px;
+    height: 6vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -115,7 +119,7 @@ li {
 a {
     text-decoration: none;
     color: black;
-    font-size: 34px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
