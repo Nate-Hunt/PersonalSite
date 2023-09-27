@@ -67,6 +67,7 @@ h3 {
 
 
 #profile_pic {
+    margin-top: 4vh;
     border-radius: 15vw;
     border: 10px solid white;
     min-height: 0px;
